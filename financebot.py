@@ -18,7 +18,7 @@ with data:
     )
 """)
 
-api_token = "7429366923:AAHa2h71CQXGseCMFYXvaGBq366lctyktuM"
+
 
 class TeleBot:
     def __init__(self,token):
