@@ -7,6 +7,7 @@ current_time = date.today()
 data = sqlite3.connect("finance.db",check_same_thread=False)
 cursor = data.cursor()
 
+api_token = "7429366923:AAHa2h71CQXGseCMFYXvaGBq366lctyktuM"
 with data:
     data.execute("""
     CREATE TABLE IF NOT EXISTS Finance_Bot(
